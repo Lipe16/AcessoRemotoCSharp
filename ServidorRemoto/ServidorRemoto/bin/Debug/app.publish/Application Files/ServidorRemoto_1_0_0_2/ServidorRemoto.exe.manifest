@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ServidorRemoto.exe" version="1.0.0.2" publicKeyToken="8313430ace147ecd" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ServidorRemoto" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ServidorRemoto.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="554408">
+      <assemblyIdentity name="Newtonsoft.Json" version="12.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>nHm2+/hbi4fdeBsg/Di6KsBmQUM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ServidorRemoto.exe" size="693696">
+      <assemblyIdentity name="ServidorRemoto" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>jCA6fmW0mJL+APj6M6y1RuafTGg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=DESKTOP-026JKIN\Filipe" issuerKeyHash="2f9618ca37cd12325ae44396eb8441bc105b3ae8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>BGyUSAygEH2raiO15CPc9XR6tBE=</DigestValue></Reference></SignedInfo><SignatureValue>iRg/UJtzVvcYdqP1men/orPRRAmXyML4yko2QmTZpuiFJMKmGwreh0qdXmhBqseKb7iEmr+DbttuNC1hAheEqUQaqf3SntK4d3b9QSnu3VYGA82iUTdE5OjWQA+bUXKfsJgrfSN7SXI6WNX4zDYWflG+7V2Vxn2Tf9H+YaR7OLc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vx36ysJ7vZ7KQ+c3qOEybAbtCwuH63HVdfOlaf6XNKeXcgVsjJQJ7sDpn30Pp3pfHZRsBmgeHRxzMd0tqmzx8DAKntSwxdkmo6vAhJ9UkU3iRAf1Wn0kHB2aX5AxfU/g6szjLAjW/iuRTjxaWDT7AWLYunNs3+flwSrUZm88gDU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="11b47a74f5dc23e4b5236aab7d10a00c48946c04" Description="" Url=""><as:assemblyIdentity name="ServidorRemoto.exe" version="1.0.0.2" publicKeyToken="8313430ace147ecd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-026JKIN\Filipe</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>UGAtVQWbvjZcPaM7JyTnmIMfGwE=</DigestValue></Reference></SignedInfo><SignatureValue>YumLvbGPVeDsdM9V83WuJV8z70fJZyZmzhYFfyFhETyYkAFN+lCwGT1VJ2SEMJTwhogz1Cyh4WiF/B/pnrRiWcbt9VydT5Odno8it6186z98OsYCja5Fn+kQCtY9osciEUh3L8Mh3EyLSMSHmdL/KreXI/vP34mlTrbM/bhpdiQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vx36ysJ7vZ7KQ+c3qOEybAbtCwuH63HVdfOlaf6XNKeXcgVsjJQJ7sDpn30Pp3pfHZRsBmgeHRxzMd0tqmzx8DAKntSwxdkmo6vAhJ9UkU3iRAf1Wn0kHB2aX5AxfU/g6szjLAjW/iuRTjxaWDT7AWLYunNs3+flwSrUZm88gDU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQK6YcUEYfb5pKWOVS1zKQTDANBgkqhkiG9w0BAQUFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtADAAMgA2AEoASwBJAE4AXABGAGkAbABpAHAAZTAeFw0xOTA2MDkxNjQ0MDhaFw0yMDA2MDgyMjQ0MDhaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AMAAyADYASgBLAEkATgBcAEYAaQBsAGkAcABlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/HfrKwnu9nspD5zeo4TJsBu0LC4frcdV186Vp/pc0p5dyBWyMlAnuwOmffQ+nel8dlGwGaB4dHHMx3S2qbPHwMAqe1LDF2Sajq8CEn1SRTeJEB/VafSQcHZpfkDF9T+DqzOMsCNb+K5FOPFpYNPsBYti6c2zf5+XBKtRmbzyANQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAA8QyWv73gsqKLXAqz/fW1juhhNUbB3+uiA0PxAEUJ6pJ8yKMIeHh6+VQQDWEQWVW+ldENKiE4vgc9pj0PkC6pwLkcM99AmIUnkgCrPTKyORXoYU6IYS3zzV46f1KqCIV12IYDF2h1i7h3FosqfBkA7pcyYHbkVUZed+FjiHE2tk</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

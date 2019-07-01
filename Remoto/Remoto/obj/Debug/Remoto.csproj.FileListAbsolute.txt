@@ -1,0 +1,16 @@
+C:\Users\Filipe\visual-studio\Remoto\Remoto\bin\Debug\Remoto.exe
+C:\Users\Filipe\visual-studio\Remoto\Remoto\bin\Debug\Remoto.pdb
+C:\Users\Filipe\visual-studio\Remoto\Remoto\obj\Debug\Remoto.Form1.resources
+C:\Users\Filipe\visual-studio\Remoto\Remoto\obj\Debug\Remoto.Properties.Resources.resources
+C:\Users\Filipe\visual-studio\Remoto\Remoto\obj\Debug\Remoto.csproj.GenerateResource.cache
+C:\Users\Filipe\visual-studio\Remoto\Remoto\obj\Debug\Remoto.csproj.CoreCompileInputs.cache
+C:\Users\Filipe\visual-studio\Remoto\Remoto\obj\Debug\Remoto.exe
+C:\Users\Filipe\visual-studio\Remoto\Remoto\obj\Debug\Remoto.pdb
+C:\Users\Filipe\visual-studio\Remoto\Remoto\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Filipe\visual-studio\Remoto\Remoto\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Filipe\visual-studio\Remoto\Remoto\obj\Debug\Remoto.csproj.CopyComplete
+C:\Users\Filipe\visual-studio\Remoto\Remoto\bin\Debug\Remoto.exe.manifest
+C:\Users\Filipe\visual-studio\Remoto\Remoto\bin\Debug\Remoto.application
+C:\Users\Filipe\visual-studio\Remoto\Remoto\obj\Debug\Remoto.exe.manifest
+C:\Users\Filipe\visual-studio\Remoto\Remoto\obj\Debug\Remoto.application
+C:\Users\Filipe\visual-studio\Remoto\Remoto\obj\Debug\Remoto.csprojAssemblyReference.cache

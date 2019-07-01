@@ -1,0 +1,17 @@
+C:\Users\Filipe\visual-studio\ServidorRemoto\ServidorRemoto\bin\Debug\ServidorRemoto.exe.manifest
+C:\Users\Filipe\visual-studio\ServidorRemoto\ServidorRemoto\bin\Debug\ServidorRemoto.application
+C:\Users\Filipe\visual-studio\ServidorRemoto\ServidorRemoto\bin\Debug\ServidorRemoto.exe
+C:\Users\Filipe\visual-studio\ServidorRemoto\ServidorRemoto\bin\Debug\ServidorRemoto.pdb
+C:\Users\Filipe\visual-studio\ServidorRemoto\ServidorRemoto\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Filipe\visual-studio\ServidorRemoto\ServidorRemoto\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Filipe\visual-studio\ServidorRemoto\ServidorRemoto\obj\Debug\ServidorRemoto.Display.resources
+C:\Users\Filipe\visual-studio\ServidorRemoto\ServidorRemoto\obj\Debug\ServidorRemoto.Form1.resources
+C:\Users\Filipe\visual-studio\ServidorRemoto\ServidorRemoto\obj\Debug\ServidorRemoto.Properties.Resources.resources
+C:\Users\Filipe\visual-studio\ServidorRemoto\ServidorRemoto\obj\Debug\ServidorRemoto.csproj.GenerateResource.cache
+C:\Users\Filipe\visual-studio\ServidorRemoto\ServidorRemoto\obj\Debug\ServidorRemoto.csproj.CoreCompileInputs.cache
+C:\Users\Filipe\visual-studio\ServidorRemoto\ServidorRemoto\obj\Debug\ServidorRemoto.exe.manifest
+C:\Users\Filipe\visual-studio\ServidorRemoto\ServidorRemoto\obj\Debug\ServidorRemoto.application
+C:\Users\Filipe\visual-studio\ServidorRemoto\ServidorRemoto\obj\Debug\ServidorRemoto.csproj.CopyComplete
+C:\Users\Filipe\visual-studio\ServidorRemoto\ServidorRemoto\obj\Debug\ServidorRemoto.exe
+C:\Users\Filipe\visual-studio\ServidorRemoto\ServidorRemoto\obj\Debug\ServidorRemoto.pdb
+C:\Users\Filipe\visual-studio\ServidorRemoto\ServidorRemoto\obj\Debug\ServidorRemoto.csprojAssemblyReference.cache
